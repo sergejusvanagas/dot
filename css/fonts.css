@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "AFuturaRoundDemi";
+  src: url("../fonts/FuturaRoundDemi/AFuturaRoundDemi.eot");
+  src: url("../fonts/FuturaRoundDemi/AFuturaRoundDemi.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/FuturaRoundDemi/AFuturaRoundDemi.woff2") format("woff2"),
+       url("../fonts/FuturaRoundDemi/AFuturaRoundDemi.woff") format("woff"),
+       url("../fonts/FuturaRoundDemi/AFuturaRoundDemi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
