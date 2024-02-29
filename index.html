@@ -4,8 +4,53 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/main.css">
   <title>Техноклуб &laquo;Точка сборки&raquo;</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="lego, wedo, mindstorms, spike, prime, программирование, робототехника, конструирование, программирование">
+  <meta name="author" content="Сергей Добрынин">
+  <meta name="robots" content="all">
+  <!--Favicons-->
+  <link type="image/x-icon" rel="shortcut icon" href="files/favicons/favicon.ico">
+  <link type="image/png" sizes="16x16" rel="icon" href="files/favicons/favicon-16x16.png">
+  <link type="image/png" sizes="32x32" rel="icon" href="files/favicons/favicon-32x32.png">
+  <link type="image/png" sizes="96x96" rel="icon" href="files/favicons/favicon-96x96.png">
+  <link type="image/png" sizes="120x120" rel="icon" href="files/favicons/favicon-120x120.png">
+  <link type="image/png" sizes="192x192" rel="icon" href="files/favicons/android-icon-192x192.png">
+  <link sizes="57x57" rel="apple-touch-icon" href="files/favicons/apple-touch-icon-57x57.png">
+  <link sizes="60x60" rel="apple-touch-icon" href="files/favicons/apple-touch-icon-60x60.png">
+  <link sizes="72x72" rel="apple-touch-icon" href="files/favicons/apple-touch-icon-72x72.png">
+  <link sizes="76x76" rel="apple-touch-icon" href="files/favicons/apple-touch-icon-76x76.png">
+  <link sizes="114x114" rel="apple-touch-icon" href="files/favicons/apple-touch-icon-114x114.png">
+  <link sizes="120x120" rel="apple-touch-icon" href="files/favicons/apple-touch-icon-120x120.png">
+  <link sizes="144x144" rel="apple-touch-icon" href="files/favicons/apple-touch-icon-144x144.png">
+  <link sizes="152x152" rel="apple-touch-icon" href="files/favicons/apple-touch-icon-152x152.png">
+  <link sizes="180x180" rel="apple-touch-icon" href="files/favicons/apple-touch-icon-180x180.png">
+  <meta name="msapplication-TileColor" content="#2B5797">
+  <meta name="msapplication-TileImage" content="files/favicons/mstile-144x144.png">
+  <meta name="msapplication-square70x70logo" content="files/favicons/mstile-70x70.png">
+  <meta name="msapplication-square150x150logo" content="files/favicons/mstile-150x150.png">
+  <meta name="msapplication-wide310x150logo" content="files/favicons/mstile-310x310.png">
+  <meta name="msapplication-square310x310logo" content="files/favicons/mstile-310x150.png">
+  <meta name="application-name" content="My Application">
+  <meta name="msapplication-config" content="files/favicons/browserconfig.xml">
+  <link rel="manifest" href="files/favicons/manifest.json">
+  <!--OpenGraph-->
+  <meta property="og:site_name" content="Block" />
+  <meta property="og:title" content="Block token Official Site" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://block.tk/" />
+  <meta property="og:image" content="files/cube.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="60" />
+  <meta property="og:image:height" content="60" />
+  <meta property="og:description" content="Block is an easy-to-use community and trading token on the Solana blockchain." />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Block token Official Site" />
+  <meta name="twitter:description" content="Block is an easy-to-use community and trading token on the Solana blockchain." />
+  <meta name="twitter:url" content="https://block.tk/" />
+  <meta name="twitter:image" content="files/twitter_image.jpg" />
+  <!--CSS-->
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <header>
@@ -15,7 +60,7 @@
           <img src="img/logo.svg" alt="Logo">
         </div>
         <div class="block">
-          <nav>
+          <nav class="nav">
             <ul>
               <li><a href="#">Конструирование</a></li>
               <li><a href="#">Робототехника</a></li>
@@ -36,7 +81,16 @@
     <div class="cont">
       <div class="wrap">
         <div class="block">
-          Основная часть.
+          <h3>WeDo</h3>
+          <p>Робототехника для детей 8 &ndash; 10 лет.</p>
+        </div>
+        <div class="block">
+          <h3>Mindstorms</h3>
+          <p>Робототехника для детей и подростков (10 &ndash; 14 лет).</p>
+        </div>
+        <div class="block">
+          <h3>Spike Prime</h3>
+          <p>Описание.</p>
         </div>
       </div>
     </div>
@@ -44,32 +98,30 @@
   <footer>
     <div class="cont">
       <div class="wrap">
-        <div class="block">
-          <p>Описание техноклуба: возможности и цели.</p>
+        <div class="block" id="about">
+          <h3>О нас</h3>
+          <p><img src="img/logo.svg" alt="Logo">Краткое описание миссии и воз&shy;мож&shy;но&shy;стей техноклуба.</p>
         </div>
         <div class="block">
-          <p>Сообщества:</p>
+          <h3>Мы в интернете</h3>
           <ul class="groups">
-            <li><a href="#" id="vk">ВКонтакте</a></li>
-            <li><a href="#" class="telegram">Telegram</a></li>
-            <li><a href="#" id="yt">YouTube</a></li>
-            <li><a href="#" id="tt">TikTok</a></li>
+            <li><a href="#" id="vk">Сообщество &laquo;Точки сборки&raquo;</a></li>
+            <li><a href="#" class="telegram">Канал &laquo;Точки сборки&raquo;</a></li>
+            <li><a href="#" id="yt">YouTube-канал &laquo;Точки сборки&raquo;</a></li>
+            <li><a href="#" id="tt">TikTok-канал &laquo;Точки сборки&raquo;</a></li>
           </ul>
         </div>
         <div class="block">
-          <p>Написать:</p>
+          <h3>Напишите нам</h3>
           <ul class="send">
             <li><a href="#" class="telegram">Telegram</a></li>
             <li><a href="#" class="whatsapp">WhatsApp</a></li>
           </ul>
         </div>
-        <div class="block">
-          <p>Реквизиты ИП, контактная информация.</p>
-        </div>
       </div>
       <div class="wrap">
         <div class="block">
-          <p>&copy; 2024, &laquo;Точка сборки&raquo;</p>
+          <p>Реквизиты ИП</p>
         </div>
       </div>
     </div>

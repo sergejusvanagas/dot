@@ -2,7 +2,7 @@
 @import url(fonts.css);
 body {
   font-size: 24px;
-  font-family: "AFuturaRoundDemi";
+  font-family: "ClearSansRegular";
   color: #000000;
 }
 body .cont, .wrap, .block {
@@ -22,6 +22,18 @@ body .cont, .wrap, .block {
   flex-grow: 1;
   flex-shrink: 1;
   margin: 4px;
+}
+h2 {
+  font-family: "ClearSansBold";
+  font-size: 160%;
+}
+h3 {
+  font-size: 120%;
+  font-family: "ClearSansMedium";
+  margin-bottom: 8px;
+}
+header {
+  background-color: brown;
 }
 header .wrap {
   display: flex;
@@ -48,9 +60,9 @@ header ul {
 .msg li:first-child {
   margin-left: 0;
 }
-.msg a, .groups a, .send a {
+.nav a, .msg a, .groups a, .send a {
   text-decoration: none;
-  color: #000000;
+  color: #FFFFFF;
 }
 .groups li, .send li {
   margin-bottom: 4px;
@@ -84,7 +96,21 @@ header ul {
 #tt::before {
   background-image: url(../img/tiktok.svg);
 }
+footer {
+  background-color: darkgray;
+  color: #FFFFFF;
+}
 footer .wrap:first-child {
   display: grid;
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: repeat(3, 33.33%);
+  gap: 8px;
+}
+#about p {
+  font-family: "ClearSansLight";
+  text-align: justify;
+}
+#about img {
+  float: left;
+  width: 100px;
+  margin-right: 8px;
 }
