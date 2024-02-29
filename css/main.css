@@ -22,14 +22,18 @@ body .cont, .wrap, .block {
   flex-grow: 1;
   flex-shrink: 1;
   margin: 4px;
+  /*background-color: cadetblue;*/
 }
 h2 {
   font-family: "ClearSansBold";
   font-size: 160%;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
 }
 h3 {
   font-size: 120%;
-  font-family: "ClearSansMedium";
+  font-family: "ClearSansMediumItalic";
   margin-bottom: 8px;
 }
 header {
@@ -96,6 +100,14 @@ header ul {
 #tt::before {
   background-image: url(../img/tiktok.svg);
 }
+main img {
+  width: 120px;
+  float: left;
+  margin-right: 16px;
+}
+#constr .block, #roboto .block, #prog .block {
+  flex-basis: 32%;
+}
 footer {
   background-color: darkgray;
   color: #FFFFFF;
@@ -103,7 +115,9 @@ footer {
 footer .wrap:first-child {
   display: grid;
   grid-template-columns: repeat(3, 33.33%);
-  gap: 8px;
+}
+footer h2 {
+  margin-bottom: 8px;
 }
 #about p {
   font-family: "ClearSansLight";
@@ -112,5 +126,5 @@ footer .wrap:first-child {
 #about img {
   float: left;
   width: 100px;
-  margin-right: 8px;
+  margin-right: 12px;
 }
