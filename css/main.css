@@ -42,24 +42,49 @@ header ul {
   flex-wrap: nowrap;
   justify-content: end;
 }
-.msg a {
+.msg li {
+  margin-left: 8px;
+}
+.msg li:first-child {
+  margin-left: 0;
+}
+.msg a, .groups a, .send a {
   text-decoration: none;
   color: #000000;
 }
-#telegram::before, #whatsapp::before {
+.groups li, .send li {
+  margin-bottom: 4px;
+}
+.groups li:last-child, .send li:last-child {
+  margin-bottom: 0;
+}
+.telegram::before, .whatsapp::before, #vk::before, #yt::before, #tt::before {
   content: "";
   display: inline-block;
   width: 30px;
   height: 30px;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 4px;
   vertical-align: middle;
 }
-#telegram::before {
-  background-image: url(../img/telegram-new-2019-seeklogo.com.svg);
+.telegram::before {
+  background-image: url(../img/telegram.svg);
 }
-#whatsapp::before {
-  background-image: url(../img/whatsapp-icon-seeklogo.com.svg);
+.whatsapp::before {
+  background-image: url(../img/whatsapp.svg);
+}
+#vk::before {
+  background-image: url(../img/vkontakte.svg);
+}
+#yt::before {
+  background-image: url(../img/youtube.svg);
+}
+#tt::before {
+  background-image: url(../img/tiktok.svg);
+}
+footer .wrap:first-child {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
 }
