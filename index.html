@@ -62,10 +62,9 @@
         <div class="block">
           <nav class="nav">
             <ul>
-              <li><a href="#">Курсы</a></li>
-              <li><a href="#">Цены</a></li>
-              <li><a href="#">Как нас найти</a></li>
-              <li><a href="#">О нас</a></li>
+              <li><a href="#prices" class="nav-link">Курсы и цены</a></li>
+              <li><a href="#map" class="nav-link">Как нас найти</a></li>
+              <li><a href="#about" class="nav-link">О нас</a></li>
             </ul>
           </nav>
         </div>
@@ -80,22 +79,49 @@
     </div>
   </header>
   <main>
-    <section id="cources">
-      <div class="cont">
-        <div class="wrap">
-          <h2>Курсы</h2>
-        </div>
-      </div>
-    </section>
+    <section>Carousel</section>
     <section id="prices">
       <div class="cont">
-        <div class="wrap"><h2>Цены</h2></div>
         <div class="wrap">
-          <div class="block">Prices</div>
+          <div class="block">
+            <h2>Конструирование</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa non neque asperiores sint quo cum assumenda molestias, doloremque ad vel?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores illo quas est.</p>
+            <h3>Стоимость занятий</h3>
+            <ul>
+              <li>разовое занятие (два часа) &ndash; 500 &#8381;</li>
+              <li>абонемент на месяц (до 48 часов) &ndash; 4000 &#8381;</li>
+              <li>индивидуальное занятие &ndash; 300 &#8381; в час</li>
+            </ul>
+          </div>
+          <div class="block">
+            <h2>Программирование Lego</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis eaque aliquid illo reprehenderit iste quam libero recusandae doloribus minima voluptatem!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ex.</p>
+            <h3>Стоимость занятий</h3>
+            <ul>
+              <li>разовое занятие (два часа) &ndash; 500 &#8381;</li>
+              <li>абонемент на месяц (до 48 часов) &ndash; 4000 &#8381;</li>
+              <li>индивидуальное занятие &ndash; 300 &#8381; в час</li>
+            </ul>
+          </div>
+          <div class="block">
+            <h2>Программирование Scratch</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam reiciendis aliquid recusandae libero necessitatibus placeat. Quas, debitis dolores.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quasi.</p>
+            <h3>Стоимость занятий</h3>
+            <ul>
+              <li>разовое занятие (два часа) &ndash; 500 &#8381;</li>
+              <li>абонемент на месяц (до 48 часов) &ndash; 4000 &#8381;</li>
+              <li>индивидуальное занятие &ndash; 300 &#8381; в час</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
-    <section id="map">Map</section>
+    <section id="map">
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5642a486f8fa09b17d17fafc8df3b6f34645d291693d9d48c4b704635a583067&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+    </section>
   </main>
   <footer>
     <div class="cont">
@@ -129,9 +155,17 @@
           <p><a href="#">Реквизиты ИП</a></p>
         </div>
       </div>
+      <div class="wrap">
+        <div class="block">
+          <script src="https://yastatic.net/share2/share.js"></script>
+          <div class="ya-share2" data-curtain data-size="l" data-shape="round" data-services="vkontakte,odnoklassniki,telegram,whatsapp,evernote,reddit,pocket"></div>
+        </div>
+      </div>
     </div>
   </footer>
   <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/jquery.gotop.js"></script>
+  <script src="js/jquery.malihu.PageScroll2id.min.js"></script>
   <script src="js/common.js"></script>
 </body>
 </html>

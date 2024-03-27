@@ -24,15 +24,17 @@ body .cont, .wrap, .block {
 }
 h2 {
   font-family: "ClearSansBold";
-  font-size: 160%;
+  font-size: 140%;
   text-align: center;
   width: 100%;
   text-transform: uppercase;
+  margin-bottom: 8px;
 }
 h3 {
   font-size: 120%;
-  font-family: "ClearSansMediumItalic";
+  font-family: "ClearSansMedium";
   margin-bottom: 8px;
+  text-align: center;
 }
 header, footer {
   background-color: #999999;
@@ -85,6 +87,20 @@ header ul {
 }
 .whatsapp::before {
   background-image: url(../img/whatsapp.svg);
+}
+#prices .block {
+  /*background-color: #FF88F9;
+  border-radius: 16px;
+  padding: 16px;*/
+  flex-basis: 32%;
+}
+#prices p {
+  text-align: justify;
+  margin-bottom: 4px;
+}
+#prices ul {
+  list-style-type: disc;
+  list-style-position: inside;
 }
 footer {
   font-family: "ClearSansLight";
