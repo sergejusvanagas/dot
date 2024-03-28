@@ -1,7 +1,6 @@
 $(document).ready(function() {
   $(".nav-link").mPageScroll2id({
-    //offset: $(".desk .fixed").height()
-    offset: 40
+    offset: 0
   });
   $("#go-to-top").goTop({
     appear: 200,

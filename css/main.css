@@ -21,7 +21,12 @@ body .cont, .wrap, .block {
   flex-grow: 1;
   flex-shrink: 1;
   margin: 12px;
-  /*background-color: aquamarine;*/
+}
+h1 {
+  font-family: "ClearSansBold";
+  font-size: 200%;
+  color: #FFFFFF;
+  text-align: center;
 }
 h2 {
   font-family: "ClearSansBold";
@@ -37,8 +42,11 @@ h3 {
   margin-bottom: 12px;
   text-align: center;
 }
-header, footer {
-  background-color: #999999;
+header {
+  height: 640px;
+  background-image: url(../img/head.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 header .wrap {
   display: flex;
@@ -47,13 +55,21 @@ header .wrap {
   align-items: center;
 }
 header img, #about img {
+  filter: drop-shadow(0 0 24px #FFFFFF);
+}
+header img {
+  display: block;
+  width: 600px;
+  margin: 80px auto 40px;
+}
+#about img {
   width: 150px;
 }
 header ul {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
 }
 .msg {
@@ -62,8 +78,8 @@ header ul {
   flex-wrap: nowrap;
   justify-content: end;
 }
-.msg li {
-  margin-left: 16px;
+.nav li, .msg li {
+  margin-left: 24px;
 }
 .msg li:first-child {
   margin-left: 0;
@@ -118,6 +134,9 @@ header ul {
 footer {
   font-family: "ClearSansLight";
   color: #FFFFFF;
+  background-image: url(../img/ste.png);
+  background-position: center;
+  background-repeat: repeat;
 }
 footer .wrap:first-child {
   display: grid;
