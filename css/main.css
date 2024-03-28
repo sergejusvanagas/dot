@@ -15,12 +15,13 @@ body .cont, .wrap, .block {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 8px;
+  padding: 12px;
 }
 .block {
   flex-grow: 1;
   flex-shrink: 1;
-  margin: 8px;
+  margin: 12px;
+  /*background-color: aquamarine;*/
 }
 h2 {
   font-family: "ClearSansBold";
@@ -28,12 +29,12 @@ h2 {
   text-align: center;
   width: 100%;
   text-transform: uppercase;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 h3 {
   font-size: 120%;
   font-family: "ClearSansMedium";
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   text-align: center;
 }
 header, footer {
@@ -89,14 +90,26 @@ header ul {
   background-image: url(../img/whatsapp.svg);
 }
 #prices .block {
-  /*background-color: #FF88F9;
-  border-radius: 16px;
-  padding: 16px;*/
   flex-basis: 32%;
+  background-position: bottom right;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+#prices .block:nth-child(1) {
+  background-image: url(../img/bgrnd1.png);
+}
+#prices .block:nth-child(2) {
+  background-image: url(../img/bgrnd2.png);
+}
+#prices .block:nth-child(3) {
+  background-image: url(../img/bgrnd3.png);
+}
+#prices .block:nth-child(4) {
+  background-image: url(../img/bgrnd4.png);
 }
 #prices p {
   text-align: justify;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 #prices ul {
   list-style-type: disc;
