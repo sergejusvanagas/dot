@@ -35,12 +35,14 @@ h2 {
   width: 100%;
   text-transform: uppercase;
   margin-bottom: 12px;
+  color: #FF0000;
 }
 h3 {
   font-size: 120%;
   font-family: "ClearSansMedium";
   margin-bottom: 12px;
   text-align: center;
+  color: #FF0000;
 }
 header {
   height: 640px;
