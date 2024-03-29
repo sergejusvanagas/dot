@@ -55,7 +55,7 @@ header .wrap {
   align-items: center;
 }
 header img, #about img {
-  filter: drop-shadow(0 0 24px #FFFFFF);
+  filter: drop-shadow(0 0 16px #FFFFFF);
 }
 header img {
   display: block;
@@ -104,6 +104,9 @@ header ul {
 }
 .whatsapp::before {
   background-image: url(../img/whatsapp.svg);
+}
+#intro {
+  background-color: #999999;
 }
 #prices .block {
   flex-basis: 32%;
