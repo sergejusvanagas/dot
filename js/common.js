@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $("header .cont").css("min-height", $(window).height());
   $(".nav-link").mPageScroll2id({
     offset: 0
   });
@@ -35,15 +36,6 @@ $(document).ready(function() {
       1024: {
         items: 5
       }
-    }
-  });
-  //Fixed menu
-  $(document).scroll (function(){
-    if ($(document).width() >= 768){
-      if ($(document).scrollTop() > $(".top").height())  
-        $("nav.desk").addClass("fixed");
-      else
-        $("nav.desk").removeClass("fixed");
     }
   });
   //Mobile menu
