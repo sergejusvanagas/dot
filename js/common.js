@@ -12,31 +12,8 @@ $(document).ready(function() {
     fadein: 500,
     fadeout: 500,
     opacity: 0.5,
-    marginX: 2,
-    marginY: 14
-  });
-  //$("").animated("fadeInLeft", "fadeOutLeft");
-  $(".owl-carousel").owlCarousel({
-    margin: 20,
-    dots: false,
-    center: true,
-    loop: true,
-    autoplay: true,
-    autoplayTimeout: 2000,
-    autoplayHoverPause: true,
-    autoWidth: true,
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 2
-      },
-      768: {
-        items: 3
-      },
-      1024: {
-        items: 5
-      }
-    }
+    marginX: 3,
+    marginY: 8
   });
   //Mobile menu
   $(".mobile").hide();
@@ -50,49 +27,6 @@ $(document).ready(function() {
     if (!$(".mobile").is(e.target) && $(".mobile").has(e.target).length === 0){
       $(".mobile").fadeOut();
     }
-  });
-  //Tabs
-  $(".tabs").smartTab({
-    selected: 0,
-    theme: "default",
-    orientation: "horizontal",
-    justified: true,
-    autoAjustHeight: true,
-    transition: {
-      animation: "none",
-      speed: 400
-    }
-  });
-  //Pop-up
-  $(".popup-link").magnificPopup({
-    /*preloader: true,
-    callbacks: {
-      open: function(){
-        $(".block").method();
-      }
-    }*/
-  });
-  $(".portfolio-items").mixItUp({
-    controls: {
-      enable: true,
-      activeClass: "on"
-    },
-    animation: {
-      enable: true,
-      effects: "fade scale",
-      duration: 500
-    },
-    callbacks: {
-      onMixLoad: function(){},
-      onMixStart: function(){},
-      onMixEnd: function(){}
-    }
-  });
-  $(".gaugemeter").gaugeMeter();
-  $("#prog").progress({
-    size: "4px",
-    position: "top",
-    wapperBg: "rgba(0,0,0,0)"
   });
   //Counter
   var clock;

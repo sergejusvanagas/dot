@@ -1,15 +1,29 @@
+@media only screen and (max-width: 767px) {
+  .cont {
+    width: 100%;
+  }
+  .nav, .telegram, .whatsapp {
+    display: none;
+  }
+  .mobile-link img {
+    width: 32px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .cont {
     width: 100%;
   }
-  .mobile {
+  #burg {
     display: block;
   }
   .nav {
     display: none;
   }
+  .mobile-link {
+    display: none;
+  }
   header img {
-    width: 50%;
+    width: 60vw;
   }
   #prices .block  {
     flex-grow: 1;
@@ -19,6 +33,9 @@
 @media only screen and (min-width: 1020px) {
   .cont {
     width: 90%;
+  }
+  #burg {
+    display: none;
   }
   .mobile {
     display: none;
