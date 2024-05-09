@@ -123,16 +123,27 @@ header ul {
   background-size: 40%;
   background-repeat: no-repeat;
 }
+#prices .block img.emblem {
+  display: block;
+  height: 2em;
+  margin: 0 auto 1em;
+}
 #prices .block:nth-child(1) {
   background-image: url(../img/bgrnd1.png);
 }
 #prices .block:nth-child(2) {
-  background-image: url(../img/bgrnd2.png);
+  background-image: url(../img/bgrnd5.png);
 }
 #prices .block:nth-child(3) {
-  background-image: url(../img/bgrnd3.png);
+  background-image: url(../img/bgrnd2.png);
 }
 #prices .block:nth-child(4) {
+  background-image: url(../img/bgrnd6.png);
+}
+#prices .block:nth-child(5) {
+  background-image: url(../img/bgrnd3.png);
+}
+#prices .block:nth-child(6) {
   background-image: url(../img/bgrnd4.png);
 }
 #prices .wrap:nth-child(2) .block {
@@ -153,7 +164,7 @@ td {
   width: 20%;
   padding: 4px;
   vertical-align: top;
-  text-align: center;
+  text-align: left;
 }
 td img {
   height: 1em;
