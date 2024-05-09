@@ -8,6 +8,9 @@
   .mobile-link img {
     width: 32px;
   }
+  #prices .wrap:nth-child(2), #table {
+    display: none;
+  }
 }
 @media only screen and (min-width: 768px) {
   .cont {
@@ -28,6 +31,9 @@
   #prices .block  {
     flex-grow: 1;
     flex-basis: 100%;
+  }
+  #prices .wrap:nth-child(2) {
+    display: none;
   }
 }
 @media only screen and (min-width: 1020px) {
@@ -70,5 +76,11 @@
   footer .wrap:first-child {
     display: grid;
     grid-template-columns: 50% repeat(2, 25%);
+  }
+  #prices .wrap:nth-child(2) {
+    display: block;
+  }
+  #table {
+    display: none;
   }
 }
