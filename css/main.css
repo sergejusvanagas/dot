@@ -135,6 +135,9 @@ header ul {
 #prices .block:nth-child(4) {
   background-image: url(../img/bgrnd4.png);
 }
+#prices .wrap:nth-child(2) .block {
+  background-image: url(../img/tr.png);
+}
 #prices p {
   text-align: justify;
   margin-bottom: 8px;
@@ -142,6 +145,18 @@ header ul {
 #prices ul {
   list-style-type: disc;
   list-style-position: inside;
+}
+table {
+  width: 100%;
+}
+td {
+  width: 20%;
+  padding: 4px;
+  vertical-align: middle;
+  text-align: center;
+}
+td img {
+  width: 100%;
 }
 footer {
   font-family: "ClearSansLight";
