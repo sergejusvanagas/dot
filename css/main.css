@@ -159,6 +159,7 @@ header ul {
 }
 table {
   width: 100%;
+  font-family: "ClearSansItalic";
 }
 tr {
   border-bottom: #999999 solid 1px;
