@@ -158,6 +158,10 @@ header ul {
   list-style-position: inside;
   margin-bottom: 8px;
 }
+#prices a {
+  text-decoration: none;
+  color: #FF0000;
+}
 table {
   width: 100%;
   font-family: "ClearSansItalic";
