@@ -122,9 +122,14 @@ header ul {
 }
 #diffs .block {
   color: #FFFFFF;
+  border-radius: 16px;
+  padding: 16px;
 }
 #diffs h3 {
   color: #FFFFFF;
+}
+#diffs p {
+  text-align: justify;
 }
 #diffs .block:nth-child(1) {
   background-color: rgb(201,26,9);

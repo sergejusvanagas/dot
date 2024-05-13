@@ -52,8 +52,13 @@
   header img {
     width: 600px;
   }
+  #diffs .wrap {
+    justify-content: center;
+  }
   #diffs .block {
-    flex-basis: 18%;
+    flex-basis: 31%;
+    flex-grow: 0;
+    flex-shrink: 1;
   }
   #prices .block {
     flex-basis: 32%;
