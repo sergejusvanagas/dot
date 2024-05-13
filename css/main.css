@@ -115,9 +115,6 @@ header ul {
 .whatsapp::before {
   background-image: url(../img/whatsapp.svg);
 }
-#intro {
-  background-color: #999999;
-}
 #prices .block {
   background-position: bottom right;
   background-size: 40%;
