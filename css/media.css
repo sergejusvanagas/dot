@@ -52,6 +52,9 @@
   header img {
     width: 600px;
   }
+  #diffs .block {
+    flex-basis: 18%;
+  }
   #prices .block {
     flex-basis: 32%;
   }

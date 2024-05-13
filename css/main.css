@@ -120,6 +120,27 @@ header ul {
   background-size: 40%;
   background-repeat: no-repeat;
 }
+#diffs .block {
+  color: #FFFFFF;
+}
+#diffs h3 {
+  color: #FFFFFF;
+}
+#diffs .block:nth-child(1) {
+  background-color: rgb(201,26,9);
+}
+#diffs .block:nth-child(2) {
+  background-color: rgb(155,161,157);
+}
+#diffs .block:nth-child(3) {
+  background-color: rgb(187,233,11);
+}
+#diffs .block:nth-child(4) {
+  background-color: rgb(0,85,191);
+}
+#diffs .block:nth-child(5) {
+  background-color: rgb(254,138,24);
+}
 #prices .block img.emblem {
   display: block;
   height: 2em;
