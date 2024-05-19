@@ -11,6 +11,9 @@
   #timetable {
     display: none;
   }
+  footer .wrap:nth-child(2) {
+    display: none;
+  }
 }
 @media only screen and (min-width: 768px) {
   .cont {
@@ -35,19 +38,22 @@
   #timetable {
     display: none;
   }
+  footer .wrap:nth-child(2) {
+    display: none;
+  }
 }
 @media only screen and (min-width: 1020px) {
   .cont {
     width: 90%;
   }
   #burg {
-    display: block;
+    display: none;
   }
   .mobile {
     display: none;
   }
   .nav {
-    display: none;
+    display: block;
   }
   header img {
     width: 600px;
@@ -97,6 +103,9 @@
     grid-template-columns: 50% repeat(2, 25%);
   }
   #timetable {
+    display: block;
+  }
+  footer .wrap:nth-child(2) {
     display: block;
   }
 }

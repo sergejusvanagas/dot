@@ -152,14 +152,14 @@ header ul {
 }
 #prices .block img.emblem {
   display: block;
-  height: 2em;
+  height: 1.8em;
   margin: 0 auto 1em;
 }
 #prices .block:nth-child(1) {
   background-image: url(../img/bgrnd1.png);
 }
 #prices .block:nth-child(2) {
-  background-image: url(../img/bgrnd5.png);
+  background-image: url(../img/bgrnd2.png);
 }
 #prices .block:nth-child(3) {
   background-image: url(../img/bgrnd2.png);
