@@ -150,16 +150,21 @@ header ul {
 #diffs .block:nth-child(5) {
   background-color: rgb(254,138,24);
 }
-#prices .block img.emblem {
-  display: block;
-  height: 1.8em;
-  margin: 0 auto 1em;
+.emblems {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.emblems img {
+  height: 2.4em;
+  margin: 8px;
 }
 #prices .block:nth-child(1) {
   background-image: url(../img/bgrnd1.png);
 }
 #prices .block:nth-child(2) {
-  background-image: url(../img/bgrnd2.png);
+  background-image: url(../img/bgrnd8.png);
 }
 #prices .block:nth-child(3) {
   background-image: url(../img/bgrnd2.png);
