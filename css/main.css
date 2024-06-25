@@ -65,9 +65,9 @@ header .wrap:nth-child(2) {
   flex-grow: 1;
   align-self: center;
 }
-/*header img, #about img {
+header img, #about img {
   filter: drop-shadow(0 0 16px #FFFFFF);
-}*/
+}
 header img {
   display: block;
   margin: 0px auto 20px;
