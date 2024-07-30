@@ -1,5 +1,12 @@
 $(document).ready(function() {
-  $("header .cont").css("min-height", $(window).height());
+  const swiper = new Swiper(".swiper", {
+    speed: 1700,
+    spaceBetween: 100,
+    mousewheel: true,
+    direction: "vertical",
+    parallax: true
+  });
+  //$("header .cont").css("min-height", $(window).height());
   $(".nav-link").mPageScroll2id({
     offset: 0
   });
