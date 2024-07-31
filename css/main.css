@@ -5,6 +5,7 @@ html, body {
   height: 100%;
   font-family: "ClearSansRegular";
   font-size: 1em;
+  box-sizing: border-box;
 }
 .slider {
   height: 100%;
@@ -34,6 +35,7 @@ html, body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  height: 100%;
 }
 .wrap {
   display: flex;
@@ -41,6 +43,20 @@ html, body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+.main-slider {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-slide {
+  position: absolute;
+}
+h2 {
+  font-size: 4em;
+  text-transform: uppercase;
 }
 header img {
   height: 4em;
